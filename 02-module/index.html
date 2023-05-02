@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/tooltips.css" />
 
     <title>
       Level Up Your CSS Animations Skills | Module 2 | Touch & Hover Animations
@@ -14,9 +15,15 @@
     <article class="content">
       <p>
         ... and here is some text. This text shows how
-        <a href="https://cssanimation.rocks/#fresh">CSS animation</a> can help
-        us make links be more fun and useful...
+        <a
+          href="https://cssanimation.rocks/#fresh"
+          title="Learn all about animating in the browser"
+          class="anchor-tooltip"
+          >CSS animation</a
+        >
+        can help us make links be more fun and useful...
       </p>
     </article>
+    <script src="./utils/tooltips.js"></script>
   </body>
 </html>
