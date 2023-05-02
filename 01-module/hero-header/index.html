@@ -21,6 +21,21 @@
           <a href="#calls-to-action" class="button">Get started today</a>
         </p>
       </section>
+      <section class="header-down-arrow">
+        <img src="images/downarrow.png" width="50" />
+      </section>
     </header>
+
+    <script>
+      document.body.className += " js-loading";
+      window.addEventListener("load", showPage, false);
+
+      function showPage() {
+        document.body.className = document.body.className.replace(
+          "js-loading",
+          ""
+        );
+      }
+    </script>
   </body>
 </html>
