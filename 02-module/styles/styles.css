@@ -328,7 +328,7 @@ a:hover {
 }
 a:hover::after {
   border-color: #457dfb;
-  right: 0;
+  animation: anchor-underline 2s cubic-bezier(0, 0.5, 0, 1) infinite;
 }
 a::after {
   border-radius: 1em;
@@ -339,4 +339,19 @@ a::after {
   bottom: 0.14em;
   left: 0;
   transition: right 0.4s cubic-bezier(0, 0.5, 0, 1), border-color 0.4s ease-out;
+}
+
+@keyframes anchor-underline {
+  0%, 10% {
+    left: 0;
+    right: 100%;
+  }
+  40%, 60% {
+    left: 0;
+    right: 0;
+  }
+  90%, 100% {
+    left: 100%;
+    right: 0;
+  }
 }/*# sourceMappingURL=styles.css.map */
