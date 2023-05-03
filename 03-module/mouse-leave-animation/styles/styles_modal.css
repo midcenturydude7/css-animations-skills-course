@@ -78,4 +78,15 @@ input[type=submit] {
 input[type=submit] {
   background: #333;
   color: #fff;
+}
+
+.mouse-out .article-container {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(1.2);
+  transition: all 1s cubic-bezier(0.5, 0, 1, 0.5);
+}
+
+.article-container {
+  transition: all 3s 0.5s cubic-bezier(0, 1, 0.3, 1d);
 }/*# sourceMappingURL=styles_modal.css.map */
