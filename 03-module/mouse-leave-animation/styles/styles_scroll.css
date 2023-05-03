@@ -64,6 +64,7 @@ input[type=email] {
 
 input[type=submit] {
   background: #333;
+  color: #fff;
 }
 
 .modal .close {
@@ -72,6 +73,11 @@ input[type=submit] {
   display: block;
   font-weight: bold;
   text-align: center;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 header {
