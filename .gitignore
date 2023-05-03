@@ -5,7 +5,7 @@ base_02_revealing-content.css
 base_02_animated-button.css
 base_03_scroll-effects.css
 base_03_slide-in-banner.css
-base_03_parallax.css
+base_03_parallax-scrolling.css
 
 base.css.map
 base_02.css.map
@@ -13,4 +13,4 @@ base_02_revealing-content.css.map
 base_02_animated-button.css.map
 base_03_scroll-effects.css.map
 base_03_slide-in-banner.css.map
-base_03_parallax.css.map
+base_03_parallax-scrolling.css.map
