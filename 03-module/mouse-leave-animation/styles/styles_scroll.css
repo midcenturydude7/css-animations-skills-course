@@ -1,0 +1,186 @@
+html,
+body {
+  background: #000;
+  color: #aaa;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.content {
+  margin: 10em auto;
+  max-width: 740px;
+  width: 80%;
+}
+
+p {
+  font-size: 3em;
+  margin: 6em auto;
+}
+
+.modal {
+  background: linear-gradient(to bottom, #fff, #333);
+  border-radius: 2em;
+  height: 400px;
+  position: fixed;
+  top: calc(50% - 200px);
+  left: calc(50% - 300px);
+  width: 600px;
+  z-index: 99;
+}
+
+.modal h2 {
+  color: #333;
+  font-size: 2em;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.modal p {
+  color: #333;
+  font-size: 1.5em;
+  margin: 1em;
+}
+
+form {
+  margin: 0 auto;
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+
+input {
+  border-radius: 0.1em !important;
+  border: 1px solid #333;
+  color: #333;
+  font-size: 1.5em;
+  padding: 0.25em;
+}
+
+input[type=email] {
+  margin: 0 0.5em;
+}
+
+input[type=submit] {
+  background: #333;
+}
+
+.modal .close {
+  cursor: pointer;
+  color: #333;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+
+header {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #000 url(../images/moon.jpg) center no-repeat;
+  background-size: 100% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+}
+
+header:after {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.example-logo {
+  z-index: 10;
+}
+
+.heading {
+  bottom: 10vh;
+  color: white;
+  font-size: 10em;
+  left: 0;
+  line-height: 1;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+.content {
+  position: relative;
+}
+
+.content p {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  z-index: 10;
+}
+
+.floating-rocks {
+  position: absolute;
+}
+
+.front-one {
+  right: -10em;
+}
+
+.front-two {
+  left: -12em;
+}
+
+.back-one {
+  left: -4em;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.back-two {
+  opacity: 0.1;
+  right: -20em;
+  z-index: 0;
+}
+
+.planet-earth {
+  border-radius: 50%;
+  left: -5em;
+  opacity: 0.8;
+  z-index: 0;
+}
+
+footer {
+  background: url(../images/moon2.jpg) top center no-repeat;
+  background-size: cover;
+  height: 1014px;
+  margin-top: 10em;
+  position: relative;
+}
+
+footer .heading {
+  bottom: auto;
+  color: rgb(0, 0, 0);
+  top: 40%;
+}
+
+.credit {
+  bottom: 0.5em;
+  font-size: 1.75em;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: auto;
+}/*# sourceMappingURL=styles_scroll.css.map */
