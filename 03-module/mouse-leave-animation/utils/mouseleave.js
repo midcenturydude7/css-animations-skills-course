@@ -1,7 +1,7 @@
-/* eslint-disable */
+/* eslint-disable no-undef */
 $(function () {
-  $(window).mouseleave(function (e) {
-    const modalSeen = sessionStorage.getItem("modalSeen");
+  $(".article-container").mouseleave(function (e) {
+    var modalSeen = sessionStorage.getItem("modalSeen");
     if (e.toElement == null && !modalSeen) {
       document.documentElement.classList.add("mouse-out");
     }
@@ -10,6 +10,6 @@ $(function () {
   $("#close-modal").click(function (e) {
     e.preventDefault();
     document.documentElement.classList.remove("mouse-out");
-    sessionStorage.setItem("modalSeen", "true");
+    sessionStorage.setItem("modalSeen", true);
   });
 });
