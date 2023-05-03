@@ -1,3 +1,6 @@
+# node modules
+node_modules/
+
 # scss/sass compile files
 base.css
 base_02.css

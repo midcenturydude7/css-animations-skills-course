@@ -1,0 +1,22 @@
+{
+  "name": "css-animations-skills-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midcenturydude7/css-animations-skills-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/midcenturydude7/css-animations-skills-course/issues"
+  },
+  "homepage": "https://github.com/midcenturydude7/css-animations-skills-course#readme",
+  "dependencies": {
+    "rellax": "^1.12.1"
+  }
+}
